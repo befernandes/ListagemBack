@@ -1,0 +1,24 @@
++-------------------------------+
+|     UseCaseNotification        |
++-------------------------------+
+|                                |
+| + notifyEveryHour(String,      |
+|     PresenterNotification)     |
++-------------------------------+
+                ^
+                |
++-------------------------------+
+|  PoolingUseCaseNotification    |
++-------------------------------+
+|                               |
+| + notifyEveryHour(String,      |
+|     PresenterNotification)     |
++-------------------------------+
+                ^
+                |
++-------------------------------+
+|    PresenterNotification       |
++-------------------------------+
+|                                |
+| + notification(String)         |
++-------------------------------+
